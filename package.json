@@ -1,0 +1,30 @@
+{
+  "name": "site-checker",
+  "version": "0.0.1",
+  "description": "Check sites easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pai233/site-checker.git"
+  },
+  "keywords": [
+    "web",
+    "checker"
+  ],
+  "author": "pai233",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pai233/site-checker/issues"
+  },
+  "homepage": "https://github.com/pai233/site-checker#readme",
+  "dependencies": {
+    "@types/tough-cookie": "^4.0.1",
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "minimist": "^1.2.5",
+    "tough-cookie": "^4.0.0"
+  }
+}
